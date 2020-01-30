@@ -1,0 +1,103 @@
+4
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+    <title>Travel The world</title>
+    <script type="text/javascript" src="task3.js"></script>
+    <link rel="stylesheet" href="Task3.css" type="text/css">
+</head>
+
+<body onload="init()">
+    <h1>Travel the world</h1>
+    <!-- I added a button that count the number of clicks -->
+    <button onclick="myFunction()">Click me</button>
+    <h3 id="options">Here are some great options for you and your family: </h3>
+    <h2>This is not my content, I used <a href="https://www.nationalgeographic.com/travel/features/best-trips-2019/">this</a> website</h2>
+    <!-- I copied and pasted all the content from the above mentioned website -->
+    <!--This is my dropdown menu -->
+    <div id="myContainer">
+        <select id="drop" name="dropDownList" onclick="dropDownList()">
+        </select>
+    </div>
+    <img id="pictureMexicoCity" src="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/mexico-city-travel.adapt.1900.1.jpg" alt="Mexico city" width="900"><br>
+    <p3 id="MexicoCity">Mexico City, Mexico</p3>
+    <h5 id="WhyMexicoCity">WHY GO NOW: Taste original flavors where corn is king</h5>
+    <p id="AboutMexicoCity">It’s not difficult to find a hot, fresh tortilla in Mexico City. But chances are these tortillas are made from processed corn flour. However, a growing movement in the Mexican capital of 22 million is focusing on reviving landrace, or indigenous,
+        strains of corn, and preparing it in traditional ways. Try Molino “El Pujol,” celebrity chef Enrique Olvera’s slip of a tortillería, which also serves tamales, long-simmered beans, and dressed-up versions of elote (grilled corn on the cob). Or
+        organic tortillería Cintli, with its turmeric tortillas and Mayan milkshakes made with corn and chocolate. These chefs and tortilla radicals are in step with a cadre of musicians and artists in the city who are expressing themselves with a renewed
+        sense of pride in all that is Mexican.</p>
+    <!-- Adding a function to count the number of clicks -->
+    <button id="seeMoreMexicoCity"><a href="https://www.nationalgeographic.com/travel/destinations/north-america/mexico/mexico-city/best-trips-what-to-do-corn-tortillas/">"Click me: "</a></button><br><br>
+    <img id="pictureperuvianAmazon" src="https://media.wsimag.com/attachments/410e37130ff0fca2e992d12351b1f2c4ced87956/store/fill/1020/574/4ee4db6006efa6e6c4b95b947efb75bfa48bf0e27453b5d598644f64825e/The-Peruvian-Amazon.jpg" alt="Peruvian Amazon" width="900"><br>
+    <p3 id="peruvianAmazon">Peruvian Amazon</p3>
+    <h5 id="WhyPeruvianAmazon">WHY GO NOW: Welcome to the jungle</h5>
+    <p id="AboutPeruvianAmazon">Amazon rain forest covers more than half of the country of Peru. “We have low jungles, high jungles, cloud forests, flooded forests, vast swamps, waterfalls, jungle ruins, creepy isolated mountain peaks, and even the world’s largest documented thermal
+        river—the Boiling River of the Amazon,” says Peruvian geothermal scientist and National Geographic Explorer Andrés Ruzo. “One of my favorite things here is the blending of cuisines and cultures,” Ruzo says. “Chefs are exploring the wilds of the
+        jungle for the next bold flavor.” Lima top chef Pedro Miguel Schiaffino has teamed up with river cruise operator Aqua Expeditions to support sustainable fishing practices in the Pacaya Samiria Reserve, where the Aria Amazon sails. Creating northeastern
+        Peru’s roadless Yaguas National Park in 2018 spared millions of acres of Amazon wilderness from development; it should be ready for tourists soon.</p> <button id="seeMorePeruvianAmazon"><a href="https://www.nationalgeographic.com/travel/destinations/south-america/peru/">Click me</a></button><br><br>
+    <img id="pictureFanjingshanChina" src="https://news.cgtn.com/news/3d3d414f3351444f31457a6333566d54/img/84e78dbc92f542a5bde8fc1fd37f380c/84e78dbc92f542a5bde8fc1fd37f380c.jpg" alt="PFanjingshan, China" width="900"><br>
+    <p3 id="fanjingshanChina">Fanjingshan, China</p3>
+    <h5 id="WhyFanjingshanChina">WHY GO NOW: Climb through a sea of clouds</h5>
+    <p id="AboutFanjingshanChina">Fanjingshan, China’s newest UNESCO World Heritage site, is worth the climb. A sacred Buddhist site (48 temples once stood on the mountain), Fanjingshan rewards hikers with bizarre rock formations and above-the-clouds views of China’s Wuling mountain
+        range. The steepest climb is to 7,664-foot Red Clouds Golden Summit, two temple-topped peaks linked by a bridge. You could skip the climb and ride the summit cable car, but hiking offers an up-close look at Fanjingshan’s rich biodiversity, which
+        includes endemic and rare species, such as the gray snub-nosed monkey.</p><button id="seeMFanjingshanChina"><a href="https://www.nationalgeographic.com/travel/destinations/asia/china/">See more</a></button><br><br>
+    <img id="pictureDakarSenegal" src="https://afrotourism.com/wp-content/uploads/2018/04/Virage-Beach9.jpg" alt="Dakar, Senegal" width="900"><br>
+    <p3 id="dakarSenegal">Dakar, Senegal</p3>
+    <h5 id="WhyDakarSenegal">WHY GO NOW: Discover West Africa’s center of style</h5>
+    <p id="AboutDakarSenegal">Senegal’s capital at the tip of Cap Vert, Africa’s westernmost peninsula, defies easy definition—both stylish and chaotic, proudly West African but with French as the official political language. Luxury SUVs share roads with horse-drawn carts. Lively
+        beaches draw surfers, sun-worshippers, professional wrestlers, and Senegalese sheep. “Driving along the seaside Corniche, you have sweeping views of the ocean on one side and the excitement of a bustling market on the other,” says academic researcher
+        Abhit Bhandari, who splits his time between Dakar and New York City. “This is how I think of Dakar, as a city of contrasts.” Nightlife moves to hypnotic mbalax dance beats and Senegalese hip hop. Join the glam crowd at June’s Dakar Fashion Week,
+        designer Adama Amanda Ndiaye’s annual showcase of African collections.</p><button id="seeDakarSenegal"><a href="https://www.nationalgeographic.com/travel/destinations/africa/senegal/">See more</a></button><br><br>
+    <img id="pictureDordogneFrance" src="https://www.francetoday.com/wp-content/uploads/2018/10/Beynac-et-Cazenac-Fotolia_71448464_XXL.jpg" alt="Dordogne, France" width="900"><br>
+    <p3 id="dordogneFrance">Dordogne, France</p3>
+    <h5 id="WhyDordogneFrance">WHY GO NOW: Live the fairy tale</h5>
+    <p id="AboutDordogneFrance">Picture-book castles lead to romantic fantasies in the Dordogne, but the true charm of this region in southwestern France lies in the richness of its long cherished culture. Marking 100 years in 2019, the Félibrée is an annual celebration of all things
+        Occitan, including food, music, dance, and a language that resembles French, Spanish, Italian, and Catalan. “We are very attached to our country and our differences, but at the same time we are a true land of welcome,” says Jean Bonnefon, a dedicated
+        Occitanist. “The Félibrée is proof of this.” Although the Dordogne is extremely pastoral, you can’t exactly say it’s off the tourist map. Just try to find parking in Sarlat or rent a kayak on the Dordogne River on a summer day. And it’s hardly
+        unsophisticated. There are nine Michelin-starred restaurants, a smattering of upscale hotels and golf courses, and 15 UNESCO World Heritage sites. But considering that France received 87 million visitors in 2017, the relative emptiness is by far
+        the Dordogne’s most luxurious asset.</p><button id="seeDordogneFrance"><a href="https://www.nationalgeographic.com/travel/destinations/europe/france/">See more</a></button><br><br>
+    <h4>Here is a currancy converter:</h4>
+    <!-- This is my currency converter-->
+    <input type="text" id="GBP" size="10" value="0" onchange="gbpfunc()" />
+    <label for="GBP"> GBP </label>
+    </br>
+    <input type="text" id="USD" size="10" value="0" onchange="usdfunc()" />
+    <label for="USD"> USD </label>
+    </br>
+    <input type="text" id="EUR" size="10" value="0" onchange="eurfunc()" />
+    <label for="EUR"> EUR </label>
+    </br>
+    <input type="text" id="CAD" size="10" value="0" onchange="zarfunc()" />
+    <label for="ZAR"> ZAR </label>
+    </br>
+    <h4 id="findOutMore">To find out more fill out the form below</h4>
+    <!-- My calculator-->
+    <h4 id="calculator"> Here is a calculator just in case you might need it:</h4><br>
+    <h1>JavaScript Calculator</h1>
+    <p class="warning">Don't divide by zero</p>
+    <div onclick="calculator()" id="calculator" class="calculator">
+        <button id="clear" class="clear">C</button>
+        <div id="viewer" class="viewer">0</div>
+        <button onclick="button7() id=" calButton " class="num " data-num="7 ">7</button>
+        <button onclick="button8() id="calButton" class="num" data-num="8">8</button>
+        <button onclick="button9() id=" calButton " class="num " data-num="9 ">9</button>
+        <button onclick="plus() " id="calButton " data-ops="plus " class="ops ">+</button>
+        <button onclick="button4() id="calButton" class="num" data-num="4">4</button>
+        <button onclick="button5() id=" calButton " class="num " data-num="5 ">5</button>
+        <button onclick="button6() id="calButton" class="num" data-num="6">6</button>
+        <button onclick="minus()" id="calButton" data-ops="minus" class="ops">-</button>
+        <button onclick="button1() id=" calButton " class="num " data-num="1 ">1</button>
+        <button onclick="button2() id="calButton" class="num" data-num="2">2</button>
+        <button onclick="button3() id=" calButton " class="num " data-num="3 ">3</button>
+        <button onclick="multiply() " id="calButton " data-ops="times " class="ops ">*</button>
+        <button onclick="button0() id="calButton" class="num" data-num="0">0</button>
+        <button id="calButton" class="num" data-num=".">.</button>
+        <button onclick="equals()" id="calButton" id="equals" class="equals" data-result="">=</button>
+        <button onclick="divide()" id="calButton" data-ops="divided by" class="ops">/</button>
+        <button id="reset" class="reset">Reset Universe?</button>
+    </div>
+    <br><br><br>
+</body>
+
+</html>
